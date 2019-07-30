@@ -3,16 +3,17 @@
 <head>
 <style>
     body {
-        height: 10em;
-        position: relative;
-    }
-    p {
-        font-family: Verdana, Geneva;
-        font-size: 14px;
-        text-align: middle;
         position: absolute;
         top: 50%;
-        transform: translate(0, -50%)
+        left: 50%;
+        -moz-transform: translateX(-50%) translateY(-50%);
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+    }
+    p {
+        font-family: Geneva;
+        font-size: 14px;
+        text-align: middle;
         }
 </style>
 </head>
